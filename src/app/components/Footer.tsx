@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <img
-              src="/src/imports/image-2.png"
+              src="image/image-2.png"
               alt="Rujama Phones Shop"
               className="h-20 w-auto mb-4"
             />
