@@ -7,7 +7,7 @@ export default function Header() {
   const navLinks = ["Home", "Products", "Services", "Contact", "Address"];
 
   return (
-    <header className="sticky top-0 z-50 bg-[#b30000] shadow-lg">
+    <header className="sticky top-0 z-50 bg-[#820210] shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* MAIN BAR */}
@@ -18,7 +18,7 @@ export default function Header() {
             <img
               src="/image/image-1.png"
               alt="Rujama Phones Shop"
-              className="h-16 w-auto transition-transform duration-300 hover:scale-105"
+              className="h-20 w-auto transition-transform duration-300 hover:scale-105"
             />
           </div>
 
@@ -29,7 +29,7 @@ export default function Header() {
                 key={link}
                 href={`#${link.toLowerCase()}`}
                 className="text-white font-semibold text-lg relative group"
-                style={{ fontFamily: "Pacifico, cursive" }}
+                style={{ fontFamily: "serif" }}
               >
                 {link}
 
